@@ -1,7 +1,7 @@
 
 export interface Mappable {
   location: {
-    lat: number;
+    lat: number; 
     lng: number;
   };
   markerContent(): string;
